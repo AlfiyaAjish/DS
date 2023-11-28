@@ -26,11 +26,11 @@ int main()
 			}
 		}
 	}
-	//k=1;
-	//l=2;
+	k=1;
+	l=2;
 	mincost=cost[1][2];               //setting mincost
-	//t[1][1]=k;                                              //minimum cost edge
-	//t[1][2]=l;
+	t[1][1]=k;                                              //minimum cost edge
+	t[1][2]=l;
 	for(i=1;i<=n;i++)
 	{
 		for(j=1;j<=n;j++)
