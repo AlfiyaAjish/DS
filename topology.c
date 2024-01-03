@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
-int n,adj[10][10],i,j,c,f,in,visited[10],temp;
+int n,adj[10][10],i,j,f,in,visited[10],temp;
 int indegree(int v)
 {
 f=0;
-  for(c=1;c<=n;c++)
+  for(i=1;i<=n;i++)
   {
-   if(adj[c][v]==0 && visited[v]!=-1)
+   if(adj[i][v]==0 && visited[v]!=-1)
    {
     f++;
    }
